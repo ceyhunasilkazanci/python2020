@@ -1,86 +1,363 @@
-[
-  {
-    "PLAYER": "BERKAN",
-    "TUR": 3,
-    "O": 12,
-    "G": 9,
-    "B": 0,
-    "M": 3,
-    "A": 36,
-    "Y": 18,
-    "AV": 18,
-    "P": 27
-  },
-  {
-    "PLAYER": "CEYHUN",
-    "TUR": 3,
-    "O": 13,
-    "G": 8,
-    "B": 2,
-    "M": 3,
-    "A": 43,
-    "Y": 23,
-    "AV": 20,
-    "P": 26
-  },
-  {
-    "PLAYER": "EMRE",
-    "TUR": 3,
-    "O": 13,
-    "G": 4,
-    "B": 0,
-    "M": 9,
-    "A": 18,
-    "Y": 38,
-    "AV": -20,
-    "P": 12
-  },
-  {
-    "PLAYER": "KAAN",
-    "TUR": 1,
-    "O": 5,
-    "G": 3,
-    "B": 1,
-    "M": 1,
-    "A": 10,
-    "Y": 10,
-    "AV": 0,
-    "P": 10
-  },
-  {
-    "PLAYER": "UĞUR",
-    "TUR": 3,
-    "O": 12,
-    "G": 3,
-    "B": 1,
-    "M": 8,
-    "A": 19,
-    "Y": 25,
-    "AV": -6,
-    "P": 10
-  },
-  {
-    "PLAYER": "ERMAN",
-    "TUR": 1,
-    "O": 4,
-    "G": 3,
-    "B": 0,
-    "M": 1,
-    "A": 6,
-    "Y": 5,
-    "AV": 1,
-    "P": 9
-  },
-  {
-    "PLAYER": "EMİR",
-    "TUR": 2,
-    "O": 9,
-    "G": 2,
-    "B": 0,
-    "M": 7,
-    "A": 11,
-    "Y": 24,
-    "AV": -13,
-    "P": 6
-  }
-]
+{
+  "WEEKS": [
+    {
+      "NUMBER": "1"
+    },
+    {
+      "NUMBER": "2"
+    },
+    {
+      "NUMBER": "3"
+    },
+    {
+      "NUMBER": "4"
+    },
+    {
+      "NUMBER": "5"
+    }
+  ],
+  "PLAYERS": [
+    {
+      "NAME": "CEYHUN",
+      "IMAGE_PATH": "https://drive.google.com/thumbnail?id=1pIpVn_qx3FEw41epo7hoBe96oHnnKD5r"
+    },
+    {
+      "NAME": "EMİR",
+      "IMAGE_PATH": "https://drive.google.com/thumbnail?id=1Dv75fzHfKPRSYNELOwuUGR28eRB4Zrdo"
+    },
+    {
+      "NAME": "UĞUR",
+      "IMAGE_PATH": "https://drive.google.com/thumbnail?id=1ALdju03wh8zMGgQ3-VTR5AKz41SSWO29"
+    },
+    {
+      "NAME": "EMRE",
+      "IMAGE_PATH": "https://drive.google.com/thumbnail?id=18aFj8_Nx7U4ijBzY7W1LDShPEZa64bK_"
+    },
+    {
+      "NAME": "KAAN",
+      "IMAGE_PATH": "https://drive.google.com/thumbnail?id=1_Sb4uX4jUVLKIlaQKDth8cA5n9QPQL_A"
+    },
+    {
+      "NAME": "ERMAN",
+      "IMAGE_PATH": "https://drive.google.com/thumbnail?id=1XvVLbkAkIKJdtWiHNyt8UmvciZlSDT0N"
+    },
+    {
+      "NAME": "BERKAN",
+      "IMAGE_PATH": "https://drive.google.com/thumbnail?id=1b7BexZj7b44qd_azxj365Cmp0v2Setvh"
+    }
+  ],
+  "FULL_TABLE": [
+    {
+      "WON": "4",
+      "DRAW": "0",
+      "LOSS": "0",
+      "NAME": "BERKAN",
+      "WEEK": "1",
+      "POINTS": "12",
+      "GOALS_FOR": "16",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "9",
+      "GOALS_DIFFERENCE": "7"
+    },
+    {
+      "WON": "2",
+      "DRAW": "0",
+      "LOSS": "2",
+      "NAME": "CEYHUN",
+      "WEEK": "1",
+      "POINTS": "6",
+      "GOALS_FOR": "16",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "13",
+      "GOALS_DIFFERENCE": "3"
+    },
+    {
+      "WON": "2",
+      "DRAW": "0",
+      "LOSS": "2",
+      "NAME": "EMİR",
+      "WEEK": "1",
+      "POINTS": "6",
+      "GOALS_FOR": "11",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "9",
+      "GOALS_DIFFERENCE": "2"
+    },
+    {
+      "WON": "1",
+      "DRAW": "0",
+      "LOSS": "3",
+      "NAME": "UĞUR",
+      "WEEK": "1",
+      "POINTS": "3",
+      "GOALS_FOR": "10",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "12",
+      "GOALS_DIFFERENCE": "-2"
+    },
+    {
+      "WON": "1",
+      "DRAW": "0",
+      "LOSS": "3",
+      "NAME": "EMRE",
+      "WEEK": "1",
+      "POINTS": "3",
+      "GOALS_FOR": "8",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "18",
+      "GOALS_DIFFERENCE": "-10"
+    },
+    {
+      "WON": "4",
+      "DRAW": "0",
+      "LOSS": "1",
+      "NAME": "BERKAN",
+      "WEEK": "2",
+      "POINTS": "12",
+      "GOALS_FOR": "17",
+      "GAMES_PLAYED": "5",
+      "GOALS_AGAINST": "5",
+      "GOALS_DIFFERENCE": "12"
+    },
+    {
+      "WON": "3",
+      "DRAW": "2",
+      "LOSS": "0",
+      "NAME": "CEYHUN",
+      "WEEK": "2",
+      "POINTS": "11",
+      "GOALS_FOR": "14",
+      "GAMES_PLAYED": "5",
+      "GOALS_AGAINST": "5",
+      "GOALS_DIFFERENCE": "9"
+    },
+    {
+      "WON": "3",
+      "DRAW": "1",
+      "LOSS": "1",
+      "NAME": "KAAN",
+      "WEEK": "2",
+      "POINTS": "10",
+      "GOALS_FOR": "10",
+      "GAMES_PLAYED": "5",
+      "GOALS_AGAINST": "10",
+      "GOALS_DIFFERENCE": "0"
+    },
+    {
+      "WON": "2",
+      "DRAW": "1",
+      "LOSS": "2",
+      "NAME": "UĞUR",
+      "WEEK": "2",
+      "POINTS": "7",
+      "GOALS_FOR": "8",
+      "GAMES_PLAYED": "5",
+      "GOALS_AGAINST": "6",
+      "GOALS_DIFFERENCE": "2"
+    },
+    {
+      "WON": "1",
+      "DRAW": "0",
+      "LOSS": "4",
+      "NAME": "EMRE",
+      "WEEK": "2",
+      "POINTS": "3",
+      "GOALS_FOR": "3",
+      "GAMES_PLAYED": "5",
+      "GOALS_AGAINST": "11",
+      "GOALS_DIFFERENCE": "-8"
+    },
+    {
+      "WON": "0",
+      "DRAW": "0",
+      "LOSS": "5",
+      "NAME": "EMİR",
+      "WEEK": "2",
+      "POINTS": "0",
+      "GOALS_FOR": "0",
+      "GAMES_PLAYED": "5",
+      "GOALS_AGAINST": "15",
+      "GOALS_DIFFERENCE": "-15"
+    },
+    {
+      "WON": "3",
+      "DRAW": "0",
+      "LOSS": "1",
+      "NAME": "CEYHUN",
+      "WEEK": "3",
+      "POINTS": "9",
+      "GOALS_FOR": "13",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "5",
+      "GOALS_DIFFERENCE": "8"
+    },
+    {
+      "WON": "3",
+      "DRAW": "0",
+      "LOSS": "1",
+      "NAME": "ERMAN",
+      "WEEK": "3",
+      "POINTS": "9",
+      "GOALS_FOR": "6",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "5",
+      "GOALS_DIFFERENCE": "1"
+    },
+    {
+      "WON": "2",
+      "DRAW": "0",
+      "LOSS": "2",
+      "NAME": "EMRE",
+      "WEEK": "3",
+      "POINTS": "6",
+      "GOALS_FOR": "7",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "9",
+      "GOALS_DIFFERENCE": "-2"
+    },
+    {
+      "WON": "1",
+      "DRAW": "0",
+      "LOSS": "3",
+      "NAME": "BERKAN",
+      "WEEK": "3",
+      "POINTS": "3",
+      "GOALS_FOR": "5",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "7",
+      "GOALS_DIFFERENCE": "-2"
+    },
+    {
+      "WON": "1",
+      "DRAW": "0",
+      "LOSS": "3",
+      "NAME": "UĞUR",
+      "WEEK": "3",
+      "POINTS": "3",
+      "GOALS_FOR": "4",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "9",
+      "GOALS_DIFFERENCE": "-5"
+    },
+    {
+      "WON": "3",
+      "DRAW": "1",
+      "LOSS": "0",
+      "NAME": "CEYHUN",
+      "WEEK": "4",
+      "POINTS": "10",
+      "GOALS_FOR": "15",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "9",
+      "GOALS_DIFFERENCE": "6"
+    },
+    {
+      "WON": "3",
+      "DRAW": "0",
+      "LOSS": "1",
+      "NAME": "EMİR",
+      "WEEK": "4",
+      "POINTS": "9",
+      "GOALS_FOR": "15",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "10",
+      "GOALS_DIFFERENCE": "5"
+    },
+    {
+      "WON": "2",
+      "DRAW": "1",
+      "LOSS": "1",
+      "NAME": "BERKAN",
+      "WEEK": "4",
+      "POINTS": "7",
+      "GOALS_FOR": "10",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "8",
+      "GOALS_DIFFERENCE": "2"
+    },
+    {
+      "WON": "1",
+      "DRAW": "0",
+      "LOSS": "3",
+      "NAME": "ERMAN",
+      "WEEK": "4",
+      "POINTS": "3",
+      "GOALS_FOR": "7",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "10",
+      "GOALS_DIFFERENCE": "-3"
+    },
+    {
+      "WON": "0",
+      "DRAW": "0",
+      "LOSS": "4",
+      "NAME": "EMRE",
+      "WEEK": "4",
+      "POINTS": "0",
+      "GOALS_FOR": "6",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "16",
+      "GOALS_DIFFERENCE": "-10"
+    },
+    {
+      "WON": "4",
+      "DRAW": "0",
+      "LOSS": "0",
+      "NAME": "CEYHUN",
+      "WEEK": "5",
+      "POINTS": "12",
+      "GOALS_FOR": "11",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "3",
+      "GOALS_DIFFERENCE": "8"
+    },
+    {
+      "WON": "2",
+      "DRAW": "1",
+      "LOSS": "1",
+      "NAME": "BERKAN",
+      "WEEK": "5",
+      "POINTS": "7",
+      "GOALS_FOR": "8",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "8",
+      "GOALS_DIFFERENCE": "0"
+    },
+    {
+      "WON": "2",
+      "DRAW": "0",
+      "LOSS": "2",
+      "NAME": "EMİR",
+      "WEEK": "5",
+      "POINTS": "6",
+      "GOALS_FOR": "12",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "8",
+      "GOALS_DIFFERENCE": "4"
+    },
+    {
+      "WON": "1",
+      "DRAW": "0",
+      "LOSS": "3",
+      "NAME": "EMRE",
+      "WEEK": "5",
+      "POINTS": "3",
+      "GOALS_FOR": "5",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "10",
+      "GOALS_DIFFERENCE": "-5"
+    },
+    {
+      "WON": "0",
+      "DRAW": "1",
+      "LOSS": "3",
+      "NAME": "UĞUR",
+      "WEEK": "5",
+      "POINTS": "1",
+      "GOALS_FOR": "6",
+      "GAMES_PLAYED": "4",
+      "GOALS_AGAINST": "13",
+      "GOALS_DIFFERENCE": "-7"
+    }
+  ]
+}
